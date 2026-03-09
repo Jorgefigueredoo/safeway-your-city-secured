@@ -17,25 +17,18 @@ const CTASection = () => {
 
           <div className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold font-display text-primary-foreground mb-4">
-              Pronto para se sentir mais seguro?
+              Juntos por cidades mais seguras
             </h2>
             <p className="text-primary-foreground/80 text-lg max-w-xl mx-auto mb-8">
-              Junte-se a milhares de pessoas que já transformaram a forma como se deslocam pela cidade. Baixe o SafeWay gratuitamente.
+              Acreditamos que a tecnologia pode transformar a segurança urbana. Acompanhe o desenvolvimento do SafeWay e faça parte dessa mudança.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button
                 size="lg"
                 className="rounded-full px-8 bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base"
               >
-                Baixar agora
+                Acompanhar projeto
                 <ArrowRight className="w-5 h-5 ml-1" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="rounded-full px-8 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold text-base"
-              >
-                Falar com a equipe
               </Button>
             </div>
           </div>
