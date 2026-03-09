@@ -1,36 +1,26 @@
 import { motion } from "framer-motion";
-import { Route, Map, Share2, Bell, ShieldCheck, Users } from "lucide-react";
+import { Route, Map, Share2, Bell } from "lucide-react";
 
 const features = [
   {
     icon: Route,
     title: "Rotas mais seguras",
-    description: "Algoritmos inteligentes calculam o caminho mais seguro considerando múltiplos fatores de risco.",
+    description: "Algoritmos que calcularão o caminho com menor risco, considerando múltiplos fatores de segurança urbana.",
   },
   {
     icon: Map,
     title: "Mapa de risco",
-    description: "Visualize áreas da cidade com diferentes níveis de segurança em um mapa interativo e atualizado.",
-  },
-  {
-    icon: Share2,
-    title: "Compartilhamento em tempo real",
-    description: "Compartilhe seu trajeto com familiares e amigos para que acompanhem sua localização ao vivo.",
+    description: "Um mapa interativo mostrando áreas da cidade com diferentes níveis de segurança, atualizado com dados reais.",
   },
   {
     icon: Bell,
     title: "Alertas da comunidade",
-    description: "Receba e envie alertas sobre incidentes, áreas perigosas e situações de risco em tempo real.",
+    description: "Sistema colaborativo onde usuários poderão reportar e receber alertas sobre incidentes e situações de risco.",
   },
   {
-    icon: ShieldCheck,
-    title: "Segurança urbana",
-    description: "Dados integrados de iluminação pública, câmeras de vigilância e presença policial na região.",
-  },
-  {
-    icon: Users,
-    title: "Rede colaborativa",
-    description: "Uma comunidade engajada que contribui com informações para tornar a cidade mais segura para todos.",
+    icon: Share2,
+    title: "Compartilhamento de trajeto",
+    description: "Compartilhe seu trajeto em tempo real com familiares e amigos para que acompanhem sua localização.",
   },
 ];
 
@@ -44,16 +34,16 @@ const FeaturesSection = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-sm font-semibold text-primary uppercase tracking-wider">Funcionalidades</span>
+          <span className="text-sm font-semibold text-primary uppercase tracking-wider">Como Funcionará</span>
           <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground mt-3 mb-4">
-            Tudo que você precisa para se sentir seguro
+            Funcionalidades planejadas
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Ferramentas poderosas que trabalham juntas para garantir sua segurança em cada passo.
+            Estamos projetando ferramentas que trabalharão juntas para oferecer uma experiência de navegação mais segura.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}

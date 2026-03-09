@@ -5,17 +5,17 @@ const problems = [
   {
     icon: AlertTriangle,
     title: "Insegurança nas ruas",
-    description: "Milhões de pessoas enfrentam situações de risco diariamente ao caminhar pela cidade sem informações sobre áreas perigosas.",
+    description: "Milhões de pessoas enfrentam situações de risco diariamente ao caminhar pela cidade, sem informações sobre áreas perigosas.",
   },
   {
     icon: Eye,
     title: "Falta de visibilidade",
-    description: "Ruas mal iluminadas e sem movimento são armadilhas urbanas. Sem dados, é impossível evitá-las de forma inteligente.",
+    description: "Ruas mal iluminadas e sem movimento são armadilhas urbanas. Sem dados acessíveis, é impossível evitá-las de forma inteligente.",
   },
   {
     icon: MapPin,
-    title: "Rotas sem inteligência",
-    description: "Apps de navegação focam em velocidade, não em segurança. O caminho mais curto nem sempre é o mais seguro.",
+    title: "Navegação sem inteligência",
+    description: "Aplicativos de navegação atuais focam apenas em velocidade e distância — nunca consideram a segurança do trajeto.",
   },
 ];
 
@@ -31,10 +31,10 @@ const ProblemSection = () => {
         >
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">O Problema</span>
           <h2 className="text-3xl md:text-4xl font-bold font-display text-foreground mt-3 mb-4">
-            A cidade pode ser hostil
+            Se deslocar não deveria ser um risco
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            No Brasil, a insegurança urbana afeta milhões de pessoas todos os dias. Caminhar ou se deslocar não deveria ser um risco.
+            No Brasil, milhões de pessoas se sentem inseguras ao caminhar pela cidade, especialmente à noite ou em locais desconhecidos. Faltam ferramentas que coloquem a segurança em primeiro lugar.
           </p>
         </motion.div>
 
@@ -46,7 +46,7 @@ const ProblemSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.15 }}
-              className="p-8 rounded-2xl border border-border bg-background hover:shadow-glow transition-all duration-300 group"
+              className="p-8 rounded-2xl border border-border bg-background hover:shadow-glow transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-xl gradient-hero flex items-center justify-center mb-5">
                 <problem.icon className="w-6 h-6 text-primary-foreground" />

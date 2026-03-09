@@ -1,9 +1,9 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
-import SolutionSection from "@/components/SolutionSection";
+import VisionSection from "@/components/VisionSection";
 import FeaturesSection from "@/components/FeaturesSection";
-import ImpactSection from "@/components/ImpactSection";
+import DevelopmentSection from "@/components/DevelopmentSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -15,14 +15,14 @@ const Index = () => {
       <div id="problema">
         <ProblemSection />
       </div>
-      <div id="solucao">
-        <SolutionSection />
+      <div id="visao">
+        <VisionSection />
       </div>
-      <div id="funcionalidades">
+      <div id="como-funciona">
         <FeaturesSection />
       </div>
-      <div id="impacto">
-        <ImpactSection />
+      <div id="desenvolvimento">
+        <DevelopmentSection />
       </div>
       <CTASection />
       <Footer />
