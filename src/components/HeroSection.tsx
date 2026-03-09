@@ -42,12 +42,12 @@ const HeroSection = () => {
             </p>
 
             <p className="text-sm text-muted-foreground/70 mb-8">
-              🚧 Atualmente em fase de desenvolvimento — acompanhe nosso progresso.
+              🚧 Atualmente em fase de planejamento — acompanhe nosso progresso.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
               <Button variant="hero" size="lg" className="rounded-full px-8">
-                Acompanhar projeto
+                Seja um apoiador
                 <ChevronRight className="w-5 h-5 ml-1" />
               </Button>
               <Button variant="heroOutline" size="lg" className="rounded-full px-8">
