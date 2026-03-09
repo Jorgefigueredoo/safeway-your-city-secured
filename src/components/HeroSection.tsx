@@ -28,17 +28,21 @@ const HeroSection = () => {
 
             <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 mb-6">
               <Rocket className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium text-primary">Projeto em desenvolvimento</span>
+              <span className="text-sm font-medium text-primary">
+                Projeto em desenvolvimento
+              </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-display leading-tight text-foreground mb-6">
-              Caminhe com{" "}
-              <span className="text-gradient">confiança</span>
-              <br />pela sua cidade
+              Caminhe com <span className="text-gradient">confiança</span>
+              <br />
+              pela sua cidade
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
-              O SafeWay será um aplicativo que usa dados inteligentes para encontrar as rotas mais seguras para você. Estamos transformando essa visão em realidade.
+              O SafeWay será um aplicativo que usa dados inteligentes para
+              encontrar as rotas mais seguras para você. Estamos transformando
+              essa visão em realidade.
             </p>
 
             <p className="text-sm text-muted-foreground/70 mb-8">
@@ -46,11 +50,14 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
-              <Button variant="hero" size="lg" className="rounded-full px-8">
+              <Button className="rounded-full h-14 min-w-[280px] px-10 text-lg whitespace-nowrap flex-none bg-blue-600 text-white">
                 Seja um apoiador
-                <ChevronRight className="w-5 h-5 ml-1" />
               </Button>
-              <Button variant="heroOutline" size="lg" className="rounded-full px-8">
+              <Button
+                variant="heroOutline"
+                size="lg"
+                className="rounded-full px-8"
+              >
                 Saiba mais
               </Button>
             </div>
