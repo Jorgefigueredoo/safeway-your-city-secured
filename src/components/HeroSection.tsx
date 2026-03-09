@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Rocket } from "lucide-react";
+import { Rocket } from "lucide-react";
 import logo from "@/assets/logo-safeway.png";
 
 const HeroSection = () => {
@@ -50,15 +50,25 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
-              <Button className="rounded-full h-14 min-w-[280px] px-10 text-lg whitespace-nowrap flex-none bg-blue-600 text-white">
-                Seja um apoiador
+              <Button
+                variant="hero"
+                className="rounded-full h-14 min-w-[240px] px-6 text-lg whitespace-nowrap flex-none"
+                translate="no"
+              >
+                <span translate="no" className="notranslate">
+                  Seja um apoiador
+                </span>
               </Button>
+
               <Button
                 variant="heroOutline"
                 size="lg"
                 className="rounded-full px-8"
+                translate="no"
               >
-                Saiba mais
+                <span translate="no" className="notranslate">
+                  Saiba mais
+                </span>
               </Button>
             </div>
           </motion.div>
