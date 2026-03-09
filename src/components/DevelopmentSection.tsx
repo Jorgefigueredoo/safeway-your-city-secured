@@ -12,13 +12,13 @@ const steps = [
     icon: Target,
     title: "Planejamento",
     description: "Definição de funcionalidades e arquitetura do sistema.",
-    status: "done" as const,
+    status: "current" as const,
   },
   {
     icon: Code2,
     title: "Desenvolvimento",
     description: "Construção do aplicativo e integração com dados de segurança.",
-    status: "current" as const,
+    status: "upcoming" as const,
   },
   {
     icon: Users,
