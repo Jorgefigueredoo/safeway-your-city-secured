@@ -19,7 +19,7 @@ const Navbar = () => {
           <a href="#visao" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Nossa Visão</a>
           <a href="#como-funciona" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Como Funcionará</a>
           <a href="#desenvolvimento" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Status</a>
-          <Button variant="hero" size="sm" className="rounded-full">Acompanhar projeto</Button>
+          <Button variant="hero" size="sm" className="rounded-full">Seja um apoiador</Button>
         </div>
 
         <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href="#visao" className="block text-sm text-muted-foreground" onClick={() => setOpen(false)}>Nossa Visão</a>
           <a href="#como-funciona" className="block text-sm text-muted-foreground" onClick={() => setOpen(false)}>Como Funcionará</a>
           <a href="#desenvolvimento" className="block text-sm text-muted-foreground" onClick={() => setOpen(false)}>Status</a>
-          <Button variant="hero" size="sm" className="rounded-full w-full">Acompanhar projeto</Button>
+          <Button variant="hero" size="sm" className="rounded-full w-full">Seja um apoiador</Button>
         </div>
       )}
     </nav>
