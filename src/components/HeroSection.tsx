@@ -50,15 +50,21 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
-              <Button
-                variant="hero"
-                className="rounded-full h-14 min-w-[240px] px-6 text-lg whitespace-nowrap flex-none"
-                translate="no"
+              <a
+                href="https://wa.me/5581973324911?text=Olá,%20quero%20saber%20mais%20sobre%20como%20ser%20um%20apoiador"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span translate="no" className="notranslate">
-                  Seja um apoiador
-                </span>
-              </Button>
+                <Button
+                  variant="hero"
+                  className="rounded-full h-14 min-w-[240px] px-6 text-lg whitespace-nowrap flex-none"
+                  translate="no"
+                >
+                  <span translate="no" className="notranslate">
+                    Seja um apoiador
+                  </span>
+                </Button>
+              </a>
 
               <Button
                 variant="heroOutline"
