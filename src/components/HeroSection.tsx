@@ -63,7 +63,7 @@ const HeroSection = () => {
               <Button
                 variant="heroOutline"
                 size="lg"
-                className="rounded-full px-8"
+                className="rounded-full h-14 min-w-[200px] px-6"
                 translate="no"
               >
                 <span translate="no" className="notranslate">
