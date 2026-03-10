@@ -27,7 +27,7 @@ const CTASection = () => {
                 size="lg"
                 className="rounded-full px-8 bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base"
               >
-                Acompanhar projeto
+                Seja um apoiador
                 <ArrowRight className="w-5 h-5 ml-1" />
               </Button>
             </div>
